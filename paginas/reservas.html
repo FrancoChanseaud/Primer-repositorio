@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank´s Bar & Grill</title>
+    <link rel="icon" href="../img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="centrar-texto barranavegacion-general">
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="Frank´s Bar & Grill">
+            </a>
+            <nav class=".navegacion-general">
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/carta.html">Carta</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/eventos.html">Eventos</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/reservas.html">Reservas</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="centrar texto">
+        <h1 class="encabezado">Reserva ahora!</h1>
+        <p class="parrafo-reserva">Para reservas de grupos mayores a 12 personas, por favor contáctanos al tel:123456789 o escríbenos al siguiente correo electrónico frankbg@fbg.com.ar</p>
+        <form class="centrar-formulario" action="procesar.php">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Tu Nombre" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Tu Correo electrónico" required>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" placeholder="Tu Teléfono" required>
+                    <label for="opciones">Comensales</label>
+                    <select name="select" id="opciones" required>
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="una persona">1</option>
+                        <option value="dos personas">2</option>
+                        <option value="tres personas">3</option>
+                        <option value="cuatro personas">4</option>
+                        <option value="cinco personas">5</option>
+                        <option value="seis personas">6</option>
+                        <option value="siete personas">7</option>
+                        <option value="ocho personas">8</option>
+                        <option value="nueve personas">9</option>
+                        <option value="diez personas">10</option>
+                    </select>
+                        <input class="boton-enviar" type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    <section>
+        <h2 class="encabezado">Siguenos en nuestras redes sociales!</h2>
+        <div class="redes">
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><img src="../img/facebook.png" width="60" height="60" alt="Facebook"></a>
+            </div>
+            <div>
+                <a href="https://twitter.com" target="_blank"><img src="../img/gorjeo.png" width="60" height="60" alt="Twitter"></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com" target="_blank"><img src="../img/instagram.png" width="60" height="60" alt="intagram"></a>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="bloquenavegacion-footer centrar-texto">
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="Frank´s Bar & Grill">
+            </a>
+                <ul class="navegacion-footer">
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                            <a href="../paginas/carta.html">Carta</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/eventos.html">Eventos</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/reservas.html">Reservas</a>
+                    </li>
+                </ul>
+        </div>
+            <div class="derechos">
+                <p>Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
