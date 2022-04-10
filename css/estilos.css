@@ -162,6 +162,14 @@ label{
     margin-bottom: 80px;
 }
 
+.redes div a img{
+    transition: 0.3s;
+}
+
+.redes div a img:hover{
+    transform: scale(1.1);
+}
+
 /*FOOTER*/
 .footer{
     background-color:black;
@@ -204,7 +212,7 @@ label{
     justify-content: center;
     margin-top: 35px;
     font-family:'Staatliches', cursive;
-    background-color: #2c6b8e;
+    background-image: linear-gradient(to bottom,#0b4a6b, #2c6b8e);
     color: #ffffff;
 }
 
